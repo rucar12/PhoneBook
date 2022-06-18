@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background: #1B2434;
+}
+
+.container{
+  width: 60vw;
+  margin: auto;
+  background: #1E293B;
+  border-left: 2px solid #293345;
+  border-right: 2px solid #293345;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,83 @@
+.contact{
+  padding: 2vh 5vw;
+  margin: 1vh auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 3vh;
+  &:hover{
+    background: #253249;
+  }
+  &__general{
+    display: flex;
+  }
+  &__img{
+    border-radius: 50px;
+    background: #fff;
+    width: 9vh;
+    height: 9vh;
+    & img{
+      width: 9vh;
+      height: 9vh;
+      border-radius: 50px;
+    }
+  }
+  &__info{
+    flex-direction: column;
+    padding-left: 3vw;
+  }
+  &__name{
+    color: #FAFBFC;
+    padding-left: 1vw;
+  }
+  &__phone{
+    color: #626976;
+  }
+  &__button{
+    padding: 1vh 1vw;
+    font-weight: 600;
+    z-index: 1;
+    border-radius: 10px;
+    &.edit{
+      background: #206bc4;
+      color: #FAFBFC;
+      opacity: 0.8;
+      transition: 0.2s;
+      &:hover{
+        transition: 0.2s;
+        opacity: 1;
+      }
+    }
+    &.delete{
+      background: #FAFBFC;
+      color: #D63939;
+      opacity: 0.8;
+      transition: 0.2s;
+      &:hover{
+        transition: 0.2s;
+        opacity: 1;
+      }
+    }
+    &.save{
+      background: #206bc4;
+      color: #FAFBFC;
+      opacity: 0.8;
+      transition: 0.2s;
+      &:hover{
+        transition: 0.2s;
+        opacity: 1;
+      }
+    }
+    &.cancel{
+      background: #FAFBFC;
+      color: #D63939;
+      opacity: 0.8;
+      transition: 0.2s;
+      &:hover{
+        transition: 0.2s;
+        opacity: 1;
+      }
+    }
+  }
+
+}

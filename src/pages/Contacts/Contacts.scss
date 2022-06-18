@@ -1,0 +1,80 @@
+.contacts {
+  height: 92vh;
+  overflow: auto;
+
+  & h2 {
+    border-bottom: 4px solid #293345;
+    padding: 3vh 0;
+    margin: 0;
+    color: #FAFBFC;
+
+    &.blur {
+      -webkit-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px);
+    }
+  }
+
+  &__search {
+    padding: 2vh 0;
+
+    &.blur {
+      -webkit-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px);
+    }
+
+    &_form {
+      width: 70%;
+      border: 1px solid #62697644;
+      border-radius: 15px;
+      padding: 1vh 1vw;
+      color: #626976;
+      background: #1B2434;
+    }
+  }
+
+  &__create {
+    position: absolute;
+    right: 25vw;
+    bottom: 12vh;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50px;
+    background-color: #206bc4;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 10;
+
+    &.blur {
+      -webkit-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px);
+    }
+
+    &:hover {
+      background-color: #61DAFB;
+      transition: 0.2s
+    }
+
+    &_btn {
+      color: #FAFBFC;
+      font-size: 3vw;
+    }
+  }
+  &__items{
+    &.blur {
+      -webkit-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px);
+    }
+  }
+  &__none {
+    color: #FAFBFC;
+    &.blur {
+      -webkit-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px);
+    }
+  }
+}
